@@ -9,7 +9,7 @@ Altare / 无 systemd 容器一键部署 VLESS 节点（固定 CF 隧道），菜
 先去 Cloudflare 建一条固定隧道（Argo Tunnel），拿到 token 和域名，再跑：
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/niuyeye1206/altare-node/main/altare-node.sh)
+bash <(curl -sL https://raw.githubusercontent.com/niuyeye1206/altare-node/master/altare-node.sh)
 ```
 
 或下载后运行：
